@@ -1,0 +1,122 @@
+body{
+    background-color:#2d283e;
+
+}
+
+header{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:120px;
+    /*background-color:cadetblue;*/
+}
+
+.logo{
+    clip-path: circle(70.5% at 30% 50%);
+    position: relative;
+    height:130px;
+    width:200px;
+    margin:10px;
+    background-color:#d1d7e0;
+}
+
+img{
+    padding-left: 20px;
+    width:59%;
+}
+
+.stuff{
+    display:flex;
+    flex-direction: row-reverse;
+    position: relative;
+    height:130px;
+    width:100%;
+    margin:10px;
+    /*background-color:white;*/
+}
+.search {
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.search:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+.stuff1{
+    display:flex;
+    flex-direction:row-reverse;
+    clip-path: circle(68.0% at 68% 49%);
+    position: relative;
+    height:130px;
+    width:300px;
+    margin:px;
+    background-color:#d1d7e0;
+}
+
+nav{ 
+    color:#d1d7e0;
+    top:5px;
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+    position: relative;
+    height:30px;
+    margin:10px 300px;
+    /*background-color:cadetblue;*/
+}
+
+nav a{
+    color:#d1d7e0;
+    text-decoration: none;
+    padding:60px;
+    font-family:'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+nav a:hover, a:active {
+    color: #fade26;
+}
+
+hr{
+    color:#fade26;
+    margin:0% 3%;
+}

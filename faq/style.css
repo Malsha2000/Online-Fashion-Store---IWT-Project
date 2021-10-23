@@ -1,0 +1,64 @@
+html{
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+  
+
+}
+
+
+.clip{
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    left:50px;
+    height:50px;
+    width:200px;
+    
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30% at 50% 0);
+}
+
+
+.containerf{
+    align-items: center;
+    margin: 0 auto;
+    width:100%;
+    padding: 1.5px;
+   
+      
+  
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: cornsilk;
+  }
+
+
+.accordion-item{
+   align-content: center;
+   border-radius: 4px;
+   margin-bottom: 5px;
+   padding: 1px;
+   color: darkgrey;
+   width: 600px;
+   font-size: 16px;
+  
+}
+   
+
+.answer p{
+    color: white;
+    font-size: 14px;
+    padding: 2px;
+    align-content: center;
+}
+
+
+
+  
+

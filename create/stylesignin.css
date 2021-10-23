@@ -1,0 +1,169 @@
+main{
+    align-items: space-around;
+    position: relative;
+    display: flex;
+    height:600px;
+    margin:10px 10px 10px 10px;
+    /*background-color:black;*/
+}
+p a{
+    text-decoration: none;
+    color:white;
+}
+
+p{
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+}
+.clip{
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    left:100px;
+    height:100px;
+    width:400px;
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30% at 50% 0);
+}
+
+.signup h1{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 0;
+  }
+  .signup{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  color: white;
+  padding: 0px;
+  border-radius: 5px;
+    position: absolute;
+    width:400px;
+    margin-top: 50px;
+  margin-left: 40%;
+    
+    /*background-color: azure;*/
+  }
+  .signup hr
+  {
+    color:#fade26;
+    margin:2% 5%;
+  }
+  .signup p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    opacity: 0.5;
+  }
+  .name{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 30px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .useremail{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .ypassword{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .apassword{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .signup button{
+  justify-content: center;
+   align-items: center;
+  margin-top: 20px;
+   font-family: 'Quicksand', sans-serif;
+   background-color: #802bb1;
+  border-radius: 10px;
+   border: none;
+   color: white;
+   padding: 10px 30px;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+   width: fit-content;
+   
+   
+  }
+  .signup button:hover{
+    background-color: black;
+    color: white;
+  }
+  .signup .llinks{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .links{
+    display: flex;
+    justify-content: space-around;
+    top:5px;
+    position: relative;
+    height:40px;
+    width:400px;
+    /*background-color:white;*/
+  }
+  .llinks a{
+    padding-left: 10px;
+  }
+  .llinks a:hover{
+    color:#fade26;
+  }
+  p a{
+    text-decoration: none;
+    color:white;
+}
+
+p{
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+}
