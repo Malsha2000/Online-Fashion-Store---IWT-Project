@@ -1,0 +1,73 @@
+body{
+   
+    background-color: #2d283e;
+}
+.item{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.sizeing{
+    
+    margin-top: 30px;
+    margin-left:50px;
+}
+.item p{
+    margin: 10px;
+    color: white;
+}
+.item input{
+background: none;
+border-bottom: 1px solid white;
+color: white;
+display: flex;
+flex-direction: column;
+margin: 10px;
+height: 50px;
+width:600px;
+border-radius: 10px;
+}
+.item button{
+
+    color: black;
+    height: 50px;
+    width:100px ;
+    margin: 10px;
+    border-radius: 5px;
+}
+.zoom{
+
+
+ height: fit-content;
+ width: 1000px;
+}
+.zoom p{
+
+    font-size: 30px;
+    color: white;
+}
+
+.zoom p1{
+   
+   margin-left:50px;
+   font-size: 30px;
+   color: white;
+}
+.zoom2{
+
+
+    height: 300px;
+    width: 1000px;
+   }
+.zoom2 button{
+
+    color: black;
+    height: 50px;
+    width:100px ;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,123 @@
+
+main{
+    align-items: space-around;
+    position: relative;
+    display: flex;
+    height:600px;
+    margin:10px;
+    /*background-color:black;*/
+}
+
+.trendzbox{
+    align-self: center;
+    justify-content:center;
+    display: flex;
+    position: relative;
+    height:600px;
+    width:100%;
+    /*background-color:cadetblue;*/
+}
+
+
+.clip{
+    align-self: flex-start;
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    height:150px;
+    width:400px;
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30.0% at 50% 5%);
+}
+
+.clip h1{
+    padding-top: 10px;
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+}
+
+.category{
+    font-family: 'Quicksand', sans-serif;
+    justify-content:space-around;
+    flex-direction: row;
+    display:flex;
+    position: relative;
+    margin:10px;
+    height:580px;
+    width:100%;
+    margin:px;
+    /*background-color:#1a1a1d2f;*/
+}
+
+.category hr{
+    color:#4e4e50;
+    margin:20px 20px;
+}
+
+.category a:hover, a:active {
+    color: #fade26;
+
+}
+
+.category h1{
+    color:#fbeec1;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.category a{
+    font-size: 17px;
+    text-decoration: none;
+    padding-top: 40px;
+    color:#d1d7e0;
+
+}
+
+.women{
+    flex-direction: column;
+    text-align: center;
+    display:flex;
+    margin:100px;
+    position: relative;
+    height:460px;
+    width:30%;
+    /*background-color:black;*/
+}
+
+.men{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin:100px;
+    position: relative;
+    height:460px;
+    width:30%;
+    /*background-color:black;*/
+}
+
+.kids{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin:100px;
+    position: relative;
+    height:460px;
+    width:30%;
+    /*background-color:black;*/
+}
+
+
+p a{
+    text-decoration: none;
+    color:#d1d7e0;
+}
+
+p{
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+}
+
