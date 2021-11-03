@@ -1,0 +1,133 @@
+main{
+    align-items: space-around;
+    position: relative;
+    display: flex;
+    height:600px;
+    width: 100%;
+    margin:10px 10px 10px 10px;
+    /*background-color:black;*/
+}
+.clip{
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    left:100px;
+    height:100px;
+    width:400px;
+    
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30% at 50% 0);
+}
+p a{
+  text-decoration: none;
+  color:white;
+}
+
+p{
+  color:#d1d7e0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  
+}
+.login2 h1{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 0;
+  }
+  .login2{
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+  color: white;
+  padding: 0px;
+  border-radius: 5px;
+    position: absolute;
+    width:400px;
+    margin-top: 90px;
+  margin-left: 40%;
+    height:300px;
+    /*background-color: azure;*/
+  }
+
+  .login2 hr
+  {
+    color:#fade26;
+    margin:2% 5%;
+  }
+  .login2 p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    opacity: 0.5;
+  }
+  .username{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 30px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .userpassword{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    color: white;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+  }
+  .login2 button{
+   text-align: center;
+   justify-content: center;
+  margin-top: 20px;
+   font-family: 'Quicksand', sans-serif;
+   background-color: #802bb1;
+  border-radius: 10px;
+   border: none;
+   color: white;
+   padding: 10px 30px;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 18px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+  }
+  .login2 button:hover{
+    background-color: black;
+    color: white;
+  }
+  .login2 .llinks{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .links{
+    display: flex;
+    justify-content: space-around;
+    top:5px;
+    position: relative;
+    height:40px;
+    width:400px;
+    /*background-color:white;*/
+  }
+  .llinks a{
+    padding-left: 20px;
+  }
+  .llinks a:hover{
+    color:#fade26;
+    
+  }
