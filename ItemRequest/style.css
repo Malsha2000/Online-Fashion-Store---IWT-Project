@@ -1,0 +1,108 @@
+.quick p{
+    font-family: 'Quicksand', sans-serif;
+    color:#d1d7e0;
+    text-decoration: none;
+}
+
+
+main{
+    align-items: space-around;
+    position: relative;
+    display: flex;
+    height:600px;
+    margin:10px;
+    /*background-color:black;*/
+}
+
+.trendzbox{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height:600px;
+    width:100%;
+    /*background-color:cadetblue;*/
+}
+.bb1{
+    width: 800px;
+    height: 580px;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin:10px;
+    left:150px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.clip{
+    align-self: flex-start;
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    height:150px;
+    width:400px;
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30.0% at 50% 5%);
+}
+
+.clip h1{
+    padding-top: 2px;
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+}
+
+.test1{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+   flex-direction: row;
+   height: 30px;
+   width: 600px;
+ }
+ .test1 h3{
+     color:#d1d7e0;
+ }
+
+ .test1 input{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    color:white;
+    width:300px;
+    height:30px;
+    margin-bottom: 5px;
+    
+ 
+ }
+ .bb1 button{
+    text-align: center;
+    justify-content: center;
+   margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #802bb1;
+   border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: fit-content;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+   .bb1 button:hover{
+     background-color: black;
+     color: white;
+   }
+
+
