@@ -1,0 +1,361 @@
+
+main{
+    align-items: space-around;
+    position: relative;
+    display: flex;
+    height:600px;
+    margin:10px;
+    /*background-color:black;*/
+}
+
+.trendzbox{
+    align-self: center;
+    justify-content:center;
+    display: flex;
+    position: relative;
+    height:600px;
+    width:auto;
+    /*background-color:cadetblue;*/
+}
+
+
+.clip{
+    align-self: flex-start;
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    height:150px;
+    width:400px;
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30.0% at 50% 5%);
+}
+
+.clip h1{
+    padding-top: 10px;
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+}
+p a{
+    text-decoration: none;
+    color:#d1d7e0;
+}
+
+p{
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+}
+.liness{
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .liness h2{
+    padding: 0 5px; /* creates the space */
+  }
+  
+  .liness .line{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    background-color:white;
+  }
+.pro-left{
+    flex-direction: column;
+    display:flex ;
+    width: 600px;
+    height: 600px;
+    background:none;
+}
+.pro-left .favorite{
+    flex-direction: column;
+    display:flex ;
+    width: 600px;
+    margin: 0;
+    padding: 0;
+    background:none;
+    height: 300px;
+}
+.favorite .f-con{
+    display:inline-flex;
+    width: 580px;
+    padding: 0;
+    margin: 0px 10px;
+    
+}
+.f-con .f-image{
+   display: grid;
+    margin: 20px 5px;
+    width:180px;
+    height: 200px;
+   
+    
+}
+.f-image img{
+    padding:0px 15px;
+    margin: 0;
+    width:150px;
+    height: 150px;
+   
+}
+.f-image button{
+   
+    width: 150px;
+   margin: 0px 15px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #802bb1;
+   border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: left;
+    text-decoration: none;
+   
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+.f-image button:hover{
+    background-color: black;
+    color: white;
+  }
+.pro-middle{
+   border-left: 1px solid white ;
+   border-right: 1px solid white ;
+    width: 400px;
+    height: 600px;
+    
+}
+
+.pro-middle h1{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 0;
+    color: white;
+  }
+.orders{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 30px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .bill{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 30px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .oemail{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 30px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+  .ocontactnum{
+    font-family: 'Quicksand', sans-serif;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 30px;
+    width:70%;
+    height: 30px;
+    margin-bottom:5px ;
+    color: white;
+  }
+
+  .pro-middle button{
+    text-align: center;
+    justify-content: center;
+   margin-top: 50px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #802bb1;
+   border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   }
+   .pro-middle button:hover{
+     background-color: black;
+     color: white;
+   }
+
+.pro-right{
+    margin-left: 20px;
+    flex-direction: column;
+    display:flex ;
+    width: 400px;
+    height: 600px;
+   
+}
+.edit{
+    flex-direction: column;
+    display:flex ;
+    width: 400px;    
+    height: 240px;
+    background:none;
+    margin-top: 20px;
+}
+.edit p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.edit .editname{
+    font-family: 'Quicksand', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    width:70%;
+    height: 20px;
+    margin-bottom:5px ;
+    
+}
+
+.edit .editphone{
+    font-family: 'Quicksand', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    width:70%;
+    height: 20px;
+    margin-bottom:5px ;
+    
+}
+.edit .editemail{
+    font-family: 'Quicksand', sans-serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    margin-top: 10px;
+    width:70%;
+    height: 20px;
+    margin-bottom:5px ;
+    
+}
+.edit button{
+    text-align: center;
+    justify-content: center;
+   margin-top: 0px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #802bb1;
+   border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: fit-content;
+   }
+   .edit button:hover{
+     background-color: black;
+     color: white;
+   }
+.edit-address{
+    flex-direction: column;
+    display:flex ;
+    width: 400px;    
+    height: 160px;
+
+    }
+    .edit-address p{
+        padding: 0;
+        margin: 0;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .edit-address .editad{
+        font-family: 'Quicksand', sans-serif;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background: none;
+        margin-top: 0px;
+        width:300px;
+        height: 80px;
+        margin-bottom:5px ;
+        
+    }
+    .edit-address button{
+        text-align: center;
+        justify-content: center;
+       margin-top: 0px;
+        font-family: 'Quicksand', sans-serif;
+        background-color: #802bb1;
+       border-radius: 10px;
+        border: none;
+        color: white;
+        padding: 10px 30px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: fit-content;
+       }
+       .edit-address button:hover{
+         background-color: black;
+         color: white;
+       }
+    .edit-payment{
+        flex-direction: column;
+        display:flex ;
+       
+        width: 400px;    
+        height: 150px;
+       
+        }
+  .payment-v{
+      width: fit-content;
+      height: 40px;
+     
+  }
+  .payment-c{
+    width: fit-content;
+    height: 40px;
+    
+}
