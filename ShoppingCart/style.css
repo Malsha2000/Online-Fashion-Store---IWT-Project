@@ -1,0 +1,517 @@
+body{
+    background-color:#2d283e;
+}
+
+header{
+    display: flex;
+    position: relative;
+    width:100%;
+    height:120px;
+    /*background-color:cadetblue;*/
+}
+.logo{
+    clip-path: circle(70.5% at 30% 50%);
+    position: relative;
+    height:130px;
+    width:200px;
+    margin:10px;
+    background-color:#d1d7e0;
+}
+
+img{
+    padding-left: 20px;
+    width:59%;
+}
+
+.stuff{
+    display:flex;
+    flex-direction: row-reverse;
+    position: relative;
+    height:130px;
+    width:100%;
+    margin:10px;
+    /*background-color:white;*/
+}
+
+.stuff1{
+    display:flex;
+    flex-direction:row-reverse;
+    clip-path: circle(68.0% at 68% 49%);
+    position: relative;
+    height:130px;
+    width:300px;
+    margin:px;
+    background-color:#d1d7e0;
+}
+
+nav{ 
+    color:#d1d7e0;
+    top:5px;
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+    position: relative;
+    height:30px;
+    margin:10px 300px;
+    /*background-color:cadetblue;*/
+}
+
+nav a{
+    color:#d1d7e0;
+    text-decoration: none;
+    padding:60px;
+    font-family:'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+nav a:hover, a:active {
+    color: #fade26;
+}
+
+
+hr{
+    color:#fade26;
+    margin:0% 3%;
+}
+
+main{
+    align-items: space-around;
+    position: relative;
+    display: flex;
+    height:600px;
+    margin:10px;
+    /*background-color:black;*/
+}
+
+.trendzbox{
+    align-self: center;
+    display: flex;
+    position: relative;
+    height:600px;
+    width:100%;
+    /*background-color:cadetblue;*/
+}
+
+
+.clip{
+    align-self: flex-start;
+    bottom:0px;
+    text-align:center;
+    position: relative;
+    height:150px;
+    width:400px;
+    /*margin:0px;*/
+    background-color:#802bb1;
+    clip-path: circle(30.0% at 50% 5%);
+}
+
+.clip h1{
+    padding-top: 10px;
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+}
+
+.mycart{
+    flex-direction: column;
+    display: flex;
+    position:relative;
+    margin:10px;
+    height:580px;
+    width:900px;
+    /*background-color:white;*/
+}
+
+.topic{
+    flex-direction: row-reverse;
+    position:relative;
+    display: flex;
+    height:60px;
+    width:880px;
+    margin:10px;
+    /*background-color: bisque;*/
+}
+
+.qty{
+    
+    text-align:center;
+    position: relative;
+    top:10px;
+    height:40px;
+    width:100px;
+    /*background-color:white;*/
+    margin:10px;
+}
+
+.qty p{
+    color:white;
+}
+
+.price{
+    text-align:center;
+    position: relative;
+    top:10px;
+    height:40px;
+    width:100px;
+    /*background-color:white;*/
+    margin:10px;
+}
+
+.mc{
+    flex:2;
+    height:40px;
+    /*background-color:white;*/
+    margin:10px;
+}
+
+.qty p , .price p{
+    color:black;
+}
+
+.mc p{
+    position:relative;
+    bottom:10px;
+    color:rgb(235, 152, 152);
+    font-size:20px;
+}
+
+.mycart hr{
+    border:1px solid #d1d7e0;
+}
+
+
+.sample1{
+    top:10px;
+    margin:10px;
+    height:225px;
+    width:880px;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    /*background-color:blueviolet;*/
+}
+
+.img1{
+    margin:10px;
+    display: flex;
+    position: relative;
+    height:205px;
+    width:300px;
+    /*background-color:white;*/
+}
+
+.img1 img{
+    right:20px;
+    position:relative;
+    width:100%;
+
+}
+
+.ides{
+    margin:10px;
+    display: flex;
+    position: relative;
+    height:205px;
+    width:300px;
+    /*background-color:black;*/
+}
+
+.ides p{
+    
+    text-align: left;
+    color:white;
+}
+
+.iprice{
+    align-self: center;
+    margin:10px;
+    display: flex;
+    position: relative;
+    height:80px;
+    width:100px;
+    justify-content: center;
+    /*background-color:white;*/
+}
+
+
+
+.price p{
+    color:#c3c786;
+}
+
+.qty p{
+    color:#c3c786;
+}
+
+.iqty{
+    bottom: 13px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    display: flex;
+    position: relative;
+    height:80px;
+    width:100px;
+    /*background-color:white;*/
+}
+
+
+.submit{
+    position: relative;
+    align-items: center;
+}
+
+.submit input{
+    left:1px;
+    top:10px;
+    position: relative;
+    background-color:#802bb1;
+    color:#d1d7e0;
+    border:none;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+.submit input:hover{
+    background-color: black;
+
+}
+
+.vl {
+    border-left: 2px solid #d1d7e0;
+    height: 580px;
+    margin:10px;
+}
+
+.purchase{
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    display: flex;
+    position:relative;
+    margin:10px;
+    height:580px;
+    width:500px;
+    /*background-color:white;*/
+}
+
+.purchase button {
+    font-family:'Quicksand', sans-serif;;
+    position:relative;
+    background-color: #802bb1;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 75px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 4px;
+    transition-duration: 0.4s;
+  }
+  
+.purchase button:hover {
+    background-color: black;
+    color: white;
+}
+.b1{
+    justify-content:center;
+    margin:10px;
+    display: flex;
+    position: relative;
+    height:45px;
+    width:300px;
+    /*background-color:blue;*/
+}
+
+
+.b2{
+    justify-content:center;
+    margin:10px;
+    display: flex;
+    position: relative;
+    height:45px;
+    width:300px;
+    /*background-color:blue;*/
+}
+
+.b2 button{
+    font-size:13px;
+}
+
+p a{
+    text-decoration: none;
+    color:#d1d7e0;
+}
+
+p{
+    color:#d1d7e0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    
+}
+
+hr{
+    background-color:#fade26;
+}
+
+.footermain{
+    width:100%;
+    height: 200px;
+    display:flex;
+    position:relative;
+    margin:10px;
+}
+
+.footermain h1{
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main{
+    flex-wrap: nowrap;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    height:200px;
+    width:400px;
+    /*background-color:#d1d7e0;*/
+}
+
+.quick{
+    position: relative;
+    height:200px;
+    width:200px;
+    /*background-color:black;*/
+}
+
+.get{
+    position: relative;
+    height:200px;
+    width:200px;
+    /*background-color:brown;*/
+}
+
+footer h1{
+    font-size:11px;
+    text-align: center;
+
+}
+
+footer p{
+    padding-top:40px;
+    font-size:11px;
+    text-align: center;
+}
+
+footer a:hover, a:active {
+    color: #fade26;
+}
+
+.links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    left:19%;
+    position: relative;
+    height:170px;
+    width:400px;
+    /*background-color:darkcyan;*/
+}
+
+.empty{
+    display:flex;
+    position: relative;
+    height:60px;
+    width:400px;
+    /*background-color:white;*/
+}
+
+.line{
+    height:3px;
+    width: 380px;
+    /*background-color:white;*/
+}
+
+.line hr{
+    color: #c3c786;
+}
+
+.morelinks{
+    display: flex;
+    justify-content: space-around;
+    top:5px;
+    position: relative;
+    height:40px;
+    width:400px;
+    /*background-color:white;*/
+}
+.links a{
+    color:#d1d7e0;
+    padding: 5px;
+}
+
+.btmlogo{
+
+    text-align: center;
+    display: flex;
+    flex-direction:row-reverse;
+    left:35.6%;
+    position: relative;
+    height:100%;
+    width:400px;
+    /*background-color:darkcyan;*/
+}
+
+.empty2{
+    display:flex;
+    flex-direction: column-reverse;
+    position: relative;
+    height:170px;
+    width:200px;
+    /*background-color:white;*/
+}
+
+.empty2 img{
+    width:50%;
+    padding: 40px;
+}
+
+.credit{
+    flex-direction: column-reverse;
+    display:flex;
+    position: relative;
+    height:155px;
+    width:200px;
+    /*background-color:white;*/
+}
+
+
+.cards{
+    justify-content: space-around;
+    display:flex;
+    position: relative;
+    height:30px;
+    width:200px;
+    /*background-color:darkgrey;*/
+}
+input{
+	
+	font-size:20px;
+}
+.ss{
+
+    font-size: 24px;
+}
+.ss h2{
+
+font-size:24px;
+
+
+}
+.ss p{
+   font-size:20px;
+   color: #fade26;
+}
