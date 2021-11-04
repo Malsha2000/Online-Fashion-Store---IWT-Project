@@ -1,0 +1,144 @@
+footer{
+    display: flex;
+    position: relative;
+    height:150px;
+    margin:10px;
+    /*background-color:cadetblue;*/
+}
+
+.main{
+    display:flex;
+    position: relative;
+    height:200px;
+    width:400px;
+    /*ackground-color:#d1d7e0;*/
+}
+
+.quick{
+    position: relative;
+    height:200px;
+    width:200px;
+    /*background-color:black;*/
+}
+
+.get{
+    position: relative;
+    height:200px;
+    width:200px;
+    /*background-color:brown;*/
+}
+
+footer h1{
+    font-size:11px;
+    text-align: center;
+    color:black;
+}
+
+footer p{
+    padding-top:40px;
+    font-size:11px;
+    text-align: center;
+
+}
+
+footer a:hover, a:active {
+    color: #fade26;
+}
+
+.links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    left:19%;
+    position: relative;
+    height:170px;
+    width:400px;
+    /*background-color:darkcyan;*/
+}
+
+.empty{
+    display:flex;
+    position: relative;
+    height:60px;
+    width:400px;
+    /*background-color:white;*/
+}
+
+.line{
+    height:3px;
+    width: 380px;
+    /*background-color:white;*/
+}
+
+.line hr{
+    color: #d1d7e0;
+}
+
+.morelinks{
+    display: flex;
+    justify-content: space-around;
+    top:5px;
+    position: relative;
+    height:40px;
+    width:400px;
+    /*background-color:white;*/
+}
+.links a{
+    color:#d1d7e0;
+    padding: 5px;
+}
+
+.btmlogo{
+
+    text-align: center;
+    display: flex;
+    flex-direction:row-reverse;
+    left:35.6%;
+    position: relative;
+    height:100%;
+    width:400px;
+    /*background-color:darkcyan;*/
+}
+
+.empty2{
+    display:flex;
+    flex-direction: column-reverse;
+    position: relative;
+    height:170px;
+    width:200px;
+    /*background-color:white;*/
+}
+
+.empty2 img{
+    width:50%;
+    padding: 40px;
+}
+
+.credit{
+    flex-direction: column-reverse;
+    display:flex;
+    position: relative;
+    height:155px;
+    width:200px;
+    /*background-color:white;*/
+}
+
+
+.cards{
+    justify-content: space-around;
+    display:flex;
+    position: relative;
+    height:30px;
+    width:200px;
+    /*background-color:darkgrey;*/
+}
+
+@media only screen and (max-width:780px){
+    .header{
+        width: auto;
+    }
+}
+@media only screen and (max-width:320px){
+   
+   
+}
